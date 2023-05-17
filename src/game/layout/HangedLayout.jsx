@@ -131,7 +131,7 @@ export const HangedLayout = () => {
             </div>
             <div className="main_container">
                 <div className="scaffold_container">
-                    <img src={ `/src/assets/monster${5 - lives}.png`} alt="hanged monster" id="monster" className="monster"/>
+                    <img src={ `./../assets/monster${5 - lives}.png`} alt="hanged monster" id="monster" className="monster"/>
                 </div>
                 <div className="buttons_container">
                     <div id="new_game" className="button new_game" onClick={handleNewGame}>
